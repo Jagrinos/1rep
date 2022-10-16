@@ -1,5 +1,8 @@
 ## 
   var s:= readstring;
+  var b = string;
   s:= s.ToLower;
-  var b:= ReverseString(s);
-  if b=s then print ('Это палиндром') else print ('Это не палиндром')
+  b:= ReverseString(s);
+  if b=s 
+    then print ('Это палиндром') 
+    else print ('Это не палиндром')
